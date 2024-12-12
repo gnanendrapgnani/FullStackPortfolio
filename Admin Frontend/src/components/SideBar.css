@@ -1,0 +1,31 @@
+.listType {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+}
+
+.list {
+  list-style: none;
+  font-family: "Swis721 Blk BT";
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+}
+
+.list:hover {
+  color: #fcca03;
+  text-decoration: underline;
+  transition: text-decoration 0.4s;
+}
+
+.listActive {
+  list-style: none;
+  font-family: "Swis721 Blk BT";
+  font-size: 1.2rem;
+  color: #fcca03;
+  text-decoration: underline;
+  transition: text-decoration 0.4s;
+}

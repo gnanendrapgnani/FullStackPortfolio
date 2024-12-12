@@ -1,0 +1,27 @@
+.inputValue {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #707070;
+  outline: none;
+  font-size: 1.2rem;
+  margin-top: 5px;
+  width: 300px;
+}
+
+form button {
+  padding: 10px 20px;
+  border: 1px solid #707070;
+  border-radius: 6px;
+  background-color: transparent;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: ease 0.5s;
+  font-size: 1.1rem;
+  font-family: "Swis721 Blk BT";
+}
+
+form button:hover {
+  color: #fcca03;
+  text-decoration: underline;
+  background-color: #e7e7e773;
+}
